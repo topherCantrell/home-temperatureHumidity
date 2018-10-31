@@ -15,3 +15,6 @@ https://www.adafruit.com/product/386
 The sensor requires a hybrid serial interfce -- you cannot use the built in serial port.
 Adafruit made a nice Python library that includes a C module for the I/O:<br>
 https://github.com/adafruit/Adafruit_Python_DHT
+
+Great tutorial. It even mentions success on the Pi Zero:<br>
+https://www.raspberrypi-spy.co.uk/2017/09/dht11-temperature-and-humidity-sensor-raspberry-pi/
