@@ -11,3 +11,7 @@ The datasheet describes the one-wire, two-way serial communication protocol.
 
 Adafruit sells the raw DHT11 modules, and they have lots of tutorials and libraries:<br>
 https://www.adafruit.com/product/386
+
+The sensor requires a hybrid serial interfce -- you cannot use the built in serial port.
+Adafruit made a nice Python library that includes a C module for the I/O:<br>
+https://github.com/adafruit/Adafruit_Python_DHT
