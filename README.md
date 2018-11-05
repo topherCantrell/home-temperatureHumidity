@@ -18,3 +18,8 @@ https://github.com/adafruit/Adafruit_Python_DHT
 
 Great tutorial. It even mentions success on the Pi Zero:<br>
 https://www.raspberrypi-spy.co.uk/2017/09/dht11-temperature-and-humidity-sensor-raspberry-pi/
+
+```
+cd ~/Adafruit_Python_DHT/examples
+python3 AdafruitDHT.py 11 4
+```
