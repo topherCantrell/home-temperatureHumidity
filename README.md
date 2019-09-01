@@ -1,5 +1,11 @@
-# home-temperatureHumidity
+# home-dungeonHumidity
 DHT11 Temperature and Humidity Sensor
+
+Also takes a picture of the de-humidifier and processes the image to discover error LEDs.
+
+TODO
+  - Cap the humidifier to get a picture of an error
+  - Turn off the humidifier to get a picture of an off
 
 I bought from amazon:<br>
 https://www.amazon.com/gp/product/B079NJ64RV
@@ -23,3 +29,13 @@ https://www.raspberrypi-spy.co.uk/2017/09/dht11-temperature-and-humidity-sensor-
 cd ~/Adafruit_Python_DHT/examples
 python3 AdafruitDHT.py 11 4
 ```
+
+# Photo of the de-humidifier
+
+Take a photo with the camera:
+
+```
+raspistill -o hum1.jpg
+```
+
+
