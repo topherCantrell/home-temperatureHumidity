@@ -3,9 +3,11 @@ DHT11 Temperature and Humidity Sensor
 
 Also takes a picture of the de-humidifier and processes the image to discover error LEDs.
 
-TODO
-  - Cap the humidifier to get a picture of an error
-  - Turn off the humidifier to get a picture of an off
+# Schematic
+
+![](art/schematic.jpg)
+
+# Links
 
 I bought from amazon:<br>
 https://www.amazon.com/gp/product/B079NJ64RV
@@ -24,6 +26,10 @@ https://github.com/adafruit/Adafruit_Python_DHT
 
 Great tutorial. It even mentions success on the Pi Zero:<br>
 https://www.raspberrypi-spy.co.uk/2017/09/dht11-temperature-and-humidity-sensor-raspberry-pi/
+
+TODO
+  - Cap the humidifier to get a picture of an error
+  - Turn off the humidifier to get a picture of an off
 
 ```
 cd ~/Adafruit_Python_DHT/examples
