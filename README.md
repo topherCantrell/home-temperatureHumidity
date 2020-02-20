@@ -30,10 +30,18 @@ https://www.raspberrypi-spy.co.uk/2017/09/dht11-temperature-and-humidity-sensor-
 TODO
   - Cap the humidifier to get a picture of an error
   - Turn off the humidifier to get a picture of an off
+  
+```
+sudo apt-get update
+sudo apt-get install build-essential python-dev
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+cd Adafruit_Python_DHT
+sudo python3 setup.py install
+```
 
 ```
 cd ~/Adafruit_Python_DHT/examples
-python3 AdafruitDHT.py 11 4
+python3 AdafruitDHT.py 11 17
 ```
 
 # Photo of the de-humidifier
